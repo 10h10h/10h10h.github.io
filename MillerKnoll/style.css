@@ -1,0 +1,77 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.outer{
+   text-align: center;
+}
+
+.page{
+  margin-top: 10px;
+  max-width: 1200px;
+    width:1200px;
+   height: 99vh;
+   display: inline-block;
+   background-color: white;
+}
+
+.topofpage{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100px;
+}
+
+.navbar{
+flex-grow: 1;
+
+}
+
+.Logo{
+max-width: 200px;
+background-color: white;
+text-align: center;
+}
+
+.logo_img{
+  width: 60%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.search{
+  align-content: flex-end;
+  max-height: 10px;
+
+}
+.search_img{
+  width: 30%
+}
+
+a{
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+  margin-right: 20px;
+
+}
+
+a:hover{
+  color:#fd5b38;
+}
+
+
+.content{
+background-color:#fd5b38; 
+text-decoration-color: white;
+text-align:center;
+padding-left: 10px;
+padding-right: 10px;
+
+}
