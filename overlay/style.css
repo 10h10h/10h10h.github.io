@@ -1,0 +1,84 @@
+body{
+	margin:0;
+	padding:0;
+  background-color: #000;
+	font-family: sans-serif;
+
+}
+
+
+
+.outer{
+  text-align: center;
+}
+
+.page{
+	position:relative;
+	margin-top:0px;
+	background-color: #FFF;
+  max-width:1200px;
+  width:100%;
+  height:100%;
+  display: inline-block;
+  text-align: left;
+  height:99vh;
+}
+
+.nav{
+	background-color:#fd5b38;
+	display:block;
+	height:100px;
+}
+.navmobile{
+	background-color: white;
+	display:none;
+	height:100px;
+}
+.theOverlay{
+	position:absolute;
+	background-color: #fd5b38;
+	width:100%;
+	height:100%;
+	z-index: 100;
+	opacity: 0.9;
+	text-align: center;
+	display: none;
+
+}
+.close{
+	position: absolute;
+	right:30px;
+	font-size:50px;
+
+}
+.button{
+	cursor: pointer;
+}
+
+@media only screen and (max-width:799px) {
+  .page {
+      background-color: #fd5b38;
+  }
+
+	.nav{
+		display:none;
+	}
+	.navmobile{
+		display:block;
+	}
+
+}
+
+
+@media only screen and (min-width:800px) and (max-width:1000px) {
+  .page {
+    background-color: white; 
+  }
+
+	.nav{
+		display:block;
+	}
+	.navmobile{
+		display:none;
+	}
+}

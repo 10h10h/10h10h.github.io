@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Topic 6.10</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<!--Basic Template -->
+<div class="outer">
+	<div class="page">
+   <div class="theOverlay">
+      Menu
+       <div class="close button" onclick="closeOverlay()">&times;</div>
+   </div>
+    <div class="nav">
+       <div onclick="openOverlay()" class="button" >Open Overlay DESKTOP</div>
+    </div>
+    <div class="navmobile">
+       <div onclick="openOverlay()" class="button">Open Overlay MOBILE</div>
+    </div>
+    <div>page content</div>
+	</div>
+</div>
+
+<script>
+  function openOverlay(){
+      document.querySelector('.theOverlay').style.display = 'block';
+  }
+  function closeOverlay(){
+      document.querySelector('.theOverlay').style.display = 'none';
+  }
+  </script>
+
+</body>
+</html>
