@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Filters</title>
+
+	<style>
+     .my_filter{
+
+      -webkit-filter: blur:(100px) grayscale(1) hue-rotiate(90deg);
+      filter: blur(20px) grayscale(1) hue-rotate(90deg);
+
+
+
+     }
+
+
+
+
+
+    .my_filter:hover{
+
+      animation: 4s myfilteranimation forwards;
+
+    }
+
+
+
+
+     @keyframes myfilteranimation{
+
+	      100%{
+	       -webkit-filter: blur:(0px) grayscale(0) hue-rotate(0);
+	        filter: blur(0px) grayscale(0) hue-rotate(0);
+	       }
+
+     }
+
+
+
+
+	</style>
+</head>
+<body>
+
+<img class="my_filter" src="img/flower.jpg" alt="flower">
+
+</body>
+</html>
