@@ -1,0 +1,219 @@
+body{
+  font-family: sans-serif;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 400;
+
+}
+
+
+/* Top Row*/
+
+.logo{
+background-color: #fd5b38;
+max-width: 100%;
+max-height: 100px;
+text-align: left;
+padding-left: 20px;
+}
+
+.logo_content img{
+  width: 60%;
+  margin-top: 10px;
+  margin-left: 10px;
+
+}
+
+.search{
+  align-content: flex-end;
+  max-height: 10px;
+
+}
+.search_img{
+  width: 30%
+}
+
+a{
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+  margin-right: 20px;
+
+}
+
+a:hover{
+  color:#fd5b38;
+}
+
+
+.navbar a{
+  color: #black;
+  text-decoration: none;
+  font-weight: 600;
+  margin-right: 20px;
+
+
+}
+
+.navbar a:hover{
+  color:#white;
+}
+
+
+
+.row12_content{
+  font-size:15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: black;
+
+}
+
+.row12 .text_headline{
+	font-weight: bold;
+	font-size: 40px;
+  size: 100%
+}
+
+.row12_content img{
+  float: center
+}
+
+
+/* Middle Row: Columns 1, 2, 3 */
+
+.side_bar{
+  height:150px;
+  overflow: auto;
+  margin-top:20px;
+  margin-bottom:40px;
+  border: 1px solid;
+  text-align: left;
+}
+
+.side_bar .section{
+   color: #fd5b38;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+
+.side_bar img{
+	float: right;
+  max-width: 70%;
+  max-height: 100%;
+}
+
+/* Bottom Row: Column 1 */
+.col7_content{
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.col7_text_headline{
+  text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+
+}
+
+.col7_content img{
+	width:100%;
+  align-content: center;
+  margin-top: 20px;
+}
+
+.second_side_bar{
+  height:150px;
+  overflow: auto;
+  margin-top:20px;
+  margin-bottom:20px;
+  text-align: left;
+
+}
+
+.second_side_bar .section{
+   color: #fd5b38;
+   text-transform: uppercase;
+   font-size: 20px;
+}
+
+.second_side_bar img{
+	float: right;
+  max-width: 50%;
+  max-height: 80%;
+}
+
+.second_side_bar_2{
+  height:3000px;
+  width: 465px;
+  overflow: auto;
+  text-align: left;
+
+}
+
+.second_side_bar_2 .section{
+   color: #fd5b38;
+   text-transform: uppercase;
+   font-size: 20px;
+}
+
+.second_side_bar_2 img{
+	float: right;
+  max-width: 70%;
+  max-height: 100%;
+}
+
+
+/* [class^="side_bar"] element that starts with */
+div [class^="side_bar"]:first-of-type {
+    margin: 0px;
+
+}
+
+div [class^="side_bar"]:last-of-type {
+    margin: 0px;
+
+}
+
+.header .head{
+  font-weight: bold;
+	font-size: 80px;
+  size: 100%
+}
+
+.header .mainsection{
+  font-size:15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.side_bar_di{
+  height:200px;
+  margin-bottom:40px;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: left;
+  border: 1px solid;
+
+}
+
+.side_bar_di .sections{
+   color: #fd5b38;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+
+.side_bar_di .content{
+   color: black;
+   font-size: 20px;
+}
+
+.side_bar_di img{
+	float:left;
+  max-width: 100%;
+  max-height: 100%;
+}
